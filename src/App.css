@@ -1,38 +1,55 @@
-.App {
+.bgimage{
+  justify-content: center;
+  background-image:url(./Components/christmas-market-7664171.jpg);
+  height:100vh;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+.label{
+  display: block;
+  font-weight: bold;
+}
+/* .search{
+  text-align: center;
+  justify-content: center;
+  margin: 80px;
+} */
+.brandName{
+  color:white;
+}
+.authentication button{
+
+  background-color: grey;
+  justify-content: space-evenly;
+  padding: 3px;
+  border-radius: 2px;
+  
+}
+.parent {
+  margin: 1rem;
+  padding: 2rem 2rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#hero{
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+input{
+  border-radius: 5px;
+  border: 3px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#btn{
+  height: 40px;
+  width:100px;
+}
+#btn:hover{
+  background-color:grey;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
