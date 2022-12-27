@@ -25,6 +25,10 @@ const Search = () => {
                   />
                   <div className="card-body">
                     <h5 className="card-title">{imgObj.tags}</h5>
+                    <a href={imgObj.previewURL} className="btn btn-link">
+                      {" "}
+                      Download
+                    </a>
                   </div>
                 </div>
               </div>

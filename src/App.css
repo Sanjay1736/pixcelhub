@@ -1,21 +1,20 @@
 .bgimage{
   justify-content: center;
-  background-image:url(./Components/christmas-market-7664171.jpg);
+  /* background-image:url(./Components/christmas-market-7664171.jpg); */
   height:100vh;
   background-repeat: no-repeat;
   object-fit: contain;
+}
+*{
+  background-color: rgb(214, 179, 179);
 }
 .label{
   display: block;
   font-weight: bold;
 }
-/* .search{
-  text-align: center;
-  justify-content: center;
-  margin: 80px;
-} */
+
 .brandName{
-  color:white;
+  color:black;
 }
 .authentication button{
 
@@ -44,12 +43,15 @@ input{
 #btn{
   height: 40px;
   width:100px;
+  background-color:white;
 }
 #btn:hover{
   background-color:grey;
 }
 
-
+.container{
+  background-color: rgb(205, 172, 172);
+}
 
 
 
