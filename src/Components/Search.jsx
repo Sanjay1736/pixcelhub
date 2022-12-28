@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 import axios from "axios";
+
 const Search = () => {
     let { imgName } = useParams()
     const [data,setData]=useState([])
@@ -11,7 +12,9 @@ const Search = () => {
           res=>setData(res.data.hits)
       )
   }, []);
-    return (
+  return (
+    <>
+      
       <div className="container">
         <div className="row">
           {data &&
@@ -37,7 +40,8 @@ const Search = () => {
             ))}
         </div>
       </div>
-    );
+    </>
+  );
 };
 
 export default Search;
