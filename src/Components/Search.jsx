@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+
 import axios from "axios";
 const Search = () => {
     let { imgName } = useParams()
@@ -22,6 +23,7 @@ const Search = () => {
                     src={imgObj.largeImageURL}
                     height="250px"
                     width="260px"
+                    alt="imgObj.tags"
                   />
                   <div className="card-body">
                     <h5 className="card-title">{imgObj.tags}</h5>
